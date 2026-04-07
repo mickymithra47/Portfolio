@@ -75,7 +75,7 @@ function setupHireMe() {
         e.preventDefault();
         
         const subject = "Hiring Inquiry — Let's Work Together";
-        const body = `Hi Alex,%0A%0AI'm reaching out because I'd love to discuss a potential project/opportunity with you.%0A%0A[Your details here]%0A%0ABest regards,%0A[Your Name]`;
+        const body = `Hi Mithra.M.R,%0A%0AI'm reaching out because I'd love to discuss a potential project/opportunity with you.%0A%0A[Your details here]%0A%0ABest regards,%0A[Your Name]`;
         
         const mailtoLink = `mailto:${MY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${body}`;
         window.location.href = mailtoLink;
