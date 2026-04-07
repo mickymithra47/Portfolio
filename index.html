@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Dev - Front-End Developer Portfolio">
+    <title>Mithra | Front-End Developer</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Mithra.M.R<span class="gradient-text"></span></div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <a href="#contact" class="nav-cta" id="hire-me-btn">Hire Me</a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>
+                Hi, I'm <span class="gradient-text">Mithra.M.R</span><br>
+                <span id="typewriter" class="gradient-text"></span><span class="typewriter-cursor"></span>
+            </h1>
+            <p>Crafting pixel-perfect digital experiences with clean code and modern design.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                <a href="#contact" class="btn btn-outline">Let's Collaborate</a>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span style="font-size: 0.9rem; opacity: 0.6;">Scroll to discover</span>
+                <div style="width: 2px; height: 60px; background: var(--accent);"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT - EDITED WITH YOUR PHOTO -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div>
+                <p class="about-text">
+                    I'm a passionate front-end developer with 1+ years of experience turning complex ideas into beautiful, intuitive interfaces. 
+                    I specialize in modern web technologies and love building experiences that feel alive.
+                </p>
+                <p class="about-text" style="margin-top: 1.5rem;">
+                    When I'm not coding, you'll find me exploring new design trends, contributing to open-source, or mentoring aspiring developers. 
+                    Currently based in India, open to remote opportunities worldwide.
+                </p>
+            </div>
+            
+            <!-- YOUR PHOTO HERE -->
+            <div class="profile-image-container">
+                <img src="profile.jpeg" alt="Mithra - Front-End Developer" class="profile-photo">
+            </div>
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" style="background: #111;">
+        <h2 class="section-title">Skills &amp; Expertise</h2>
+        <div class="skills-container">
+            <!-- Skill 1 -->
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>HTML5 / CSS3</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="95"></div>
+                </div>
+            </div>
+            
+            <!-- Skill 2 -->
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>JavaScript / TypeScript</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="92"></div>
+                </div>
+            </div>
+            
+            <!-- Skill 3 -->
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>React / Next.js</span>
+                    <span>30%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="88"></div>
+                </div>
+            </div>
+            
+            <!-- Skill 4 -->
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>prompt Coding</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90"></div>
+                </div>
+            </div>
+            
+            <!-- Skill 5 -->
+            <!-- <div class="skill-item">
+                <div class="skill-header">
+                    <span>UI/UX Design (Figma)</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="85"></div>
+                </div>
+            </div> -->
+            
+            <!-- Skill 6 -->
+            <!-- <div class="skill-item">
+                <div class="skill-header">
+                    <span>GSAP / WebGL</span>
+                    <span>78%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="78"></div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Tech Tags -->
+        <h3 style="text-align: center; margin: 4rem 0 2rem; font-size: 1.4rem;">Technologies I ❤️ (click to copy)</h3>
+        <div class="tech-tags" style="justify-content: center;">
+            <div class="tech-tag" data-copy="React">React</div>
+            <div class="tech-tag" data-copy="Next.js">Next.js</div>
+            <!-- <div class="tech-tag" data-copy="TypeScript">TypeScript</div> -->
+            <!-- <div class="tech-tag" data-copy="Tailwind">Tailwind</div> -->
+            <div class="tech-tag" data-copy="Framer Motion">Framer Motion</div>
+            <!-- <div class="tech-tag" data-copy="GSAP">GSAP</div>
+            <div class="tech-tag" data-copy="Three.js">Three.js</div> -->
+            <div class="tech-tag" data-copy="Node.js">Node.js</div>
+            <div class="tech-tag" data-copy="HTML">Figma</div>
+            <div class="tech-tag" data-copy="MySQL">Webflow</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" id="card-1">
+                <div class="project-image">🌐</div>
+                <div class="project-content">
+                    <h3>GREEN CONNECT</h3>
+                    <p class="project-desc">Real-time analytics dashboard with beautiful data visualizations and light mode UI.</p>
+                    <div class="project-tags">
+                        <span class="tech-tag" data-copy="React">Java Script</span>
+                        <span class="tech-tag" data-copy="Chart.js">Html</span>
+                        <span class="tech-tag" data-copy="Tailwind">Java Servlet</span>
+                    </div>
+                    <!-- <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">Live Demo →</a>
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">GitHub →</a>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card" id="card-2">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>Flow – Task Manager</h3>
+                    <p class="project-desc">Minimalist productivity app with drag &amp; drop, AI task suggestions, and team collaboration.</p>
+                    <div class="project-tags">
+                        <span class="tech-tag" data-copy="Next.js">Next.js</span>
+                        <span class="tech-tag" data-copy="TypeScript">TypeScript</span>
+                        <span class="tech-tag" data-copy="Framer Motion">Framer Motion</span>
+                    <!-- </div>
+                    <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">Live Demo →</a>
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">GitHub →</a>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card" id="card-3">
+                <div class="project-image">🎨</div>
+                <div class="project-content">
+                    <h3>Artisan – 3D Portfolio</h3>
+                    <p class="project-desc">Interactive 3D portfolio built with Three.js and GSAP. Fully responsive and immersive.</p>
+                    <div class="project-tags">
+                        <span class="tech-tag" data-copy="Three.js">Three.js</span>
+                        <span class="tech-tag" data-copy="GSAP">GSAP</span>
+                        <span class="tech-tag" data-copy="React">React</span>
+                    </div>
+                    <!-- <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">Live Demo →</a>
+                        <a href="#" style="color: var(--accent); text-decoration: none; font-weight: 500;">GitHub →</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="background: #111;">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Let's build something amazing together</h2>
+                <p style="font-size: 1.25rem; opacity: 0.9; margin-bottom: 2rem;">
+                    Whether you need a stunning website, a complex web app, or just want to say hi — I'm always excited to connect.
+                </p>
+                <div style="margin-top: 3rem;">
+                    <p><strong>Email:</strong> <span id="my-email-display">mrmithra20076@gmail.com</span></p>
+                    <p style="margin-top: 1rem;"><strong>Location:</strong> Erode Tamilnadu</p>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" value="Project Inquiry" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message →</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 <Mithra class="M R"></Mithra>. Built with ❤️ using only HTML, CSS &amp; JavaScript</p>
+            
+            <div class="social-links">
+                <!-- <a href="#" aria-label="Twitter">𝕏</a> -->
+                <a href="www.linkedin.com/in/mithra-m-r-3a8310336" aria-label="LinkedIn" target="_blank">in</a>
+                <a href="https://github.com/mickymithra47" aria-label="GitHub" target="_blank">GitHub</a>
+                <!-- <a href="#" aria-label="Instagram">📷</a> -->
+            </div>
+            
+            <p>Made with pure vanilla JS • Fully responsive • Modern animations</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- TOAST -->
+    <div id="toast"></div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
